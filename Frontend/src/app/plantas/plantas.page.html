@@ -1,0 +1,22 @@
+<ion-content  class="ion-padding">
+
+    <div style="margin-top: 20%;">
+      
+      <ion-card style="background-color:rgb(230, 230, 230); margin:10% 5% 10% 5%;" *ngFor="let i of lista; let j = index">
+
+        <ion-button (click)="eliminar(j)" style="margin-left:85% ;" size="small" fill="clear" color="danger">
+          <ion-icon  slot="icon-only" name="trash"></ion-icon>
+        </ion-button>
+
+        <img style="padding:5% 10% 10% 10%;" [src]="i.imagen" />
+        <ion-card-header >
+          <ion-card-title style="color: rgb(0, 0, 0);">{{i.nombre}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content >
+          {{i.descripcion}}
+        </ion-card-content>
+
+      </ion-card>
+    </div>
+</ion-content>

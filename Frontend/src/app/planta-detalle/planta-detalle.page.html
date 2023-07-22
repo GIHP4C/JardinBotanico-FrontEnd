@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-card style="margin:30% 10% 5% 10%;">
+    <img style="padding:10% 10% 10% 10%;" [src]="predecir.imagen" />
+    <ion-card-header >
+      <ion-card-title>{{predecir.nombre}}</ion-card-title>
+      <ion-card-subtitle>Detalle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{predecir.descripcion}}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button color="tertiary" [routerLink]="['/camara']">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="start">
+    <ion-fab-button color="tertiary" (click)="Guardar()"  [routerLink]="['/plantas']">
+      <ion-icon name="save"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
+

@@ -1,0 +1,25 @@
+ <ion-content >
+       
+    <ion-card class="imagentomada">
+                <!-- Muestra la Imagen en pantalla -->
+        <img src = "{{lugarimg}}" style="width: 400px; " [routerLink]="['/planta-detalle'] "[queryParams]="{respuesta:predecir.respuesta}"/>
+        
+        <ion-card-header style="background: '#EBEDEF'">
+            <ion-card-title class="titulo">LA PLANTA MEDICINAL ES</ion-card-title>
+            <h1 class="titulo"style="text-align: center; color: rgb(45, 161, 34); height: 15px; margin: 10px 15px 5px 5px;">{{predecir.respuesta}}</h1>
+        </ion-card-header>
+                    
+    </ion-card> 
+
+    <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+        
+        <!-- Boton Camara -->
+        <ion-fab-button color="tertiary" (click)="ngOnInit()">
+            <ion-icon name="camera"></ion-icon>
+        </ion-fab-button>
+    </ion-fab> 
+
+</ion-content> 
+
+
+

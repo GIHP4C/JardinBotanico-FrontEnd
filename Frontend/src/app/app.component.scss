@@ -1,0 +1,31 @@
+.texto {
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Unna', serif;
+    font-size: 20px;
+    
+  }
+  .texto2 {
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Unna', serif;
+    font-size: 16px;
+    
+  }
+  
+  ion-menu::part(backdrop) {
+    background-color: rgba(63, 203, 210, 0.5);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 0 0;
+  
+    box-shadow: 4px 0px 16px rgba(32, 7, 123, 0.18);
+  }
+  
+  .icono{
+    color: darkslategrey;
+    background-color: rgb(204, 201, 201);
+    padding: 8px;
+    border-radius: 25px;
+  }

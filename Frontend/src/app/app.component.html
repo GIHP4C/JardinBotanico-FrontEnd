@@ -1,0 +1,57 @@
+
+  <ion-router-outlet></ion-router-outlet>
+  <ion-menu contentId="menu-content">
+    <!--titulo Menu-->
+   <ion-header>
+     <ion-toolbar color="tertiary">
+       <ion-title class="texto">MENU</ion-title>
+     </ion-toolbar>
+   </ion-header>
+
+   <!--Botones Menu-->
+   <ion-content>
+      <ion-list>
+     
+        <ion-menu-toggle [routerLink]="['/home']"> 
+          <ion-item button detail>
+            <ion-icon class="icono" slot="start" size="large" name="home"/>
+            <ion-label class="texto">Home</ion-label>
+          </ion-item>
+        </ion-menu-toggle> 
+
+        <ion-menu-toggle [routerLink]="['/plantas']">
+          <ion-item button detail >
+            <ion-icon class="icono" slot="start" size="large" name="leaf"/>
+            <ion-label class="texto">Mi Jardín</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle [routerLink]="['/camara']">
+          <ion-item button detail >
+            <ion-icon class="icono" slot="start" size="large" name="camera"/>
+            <ion-label class="texto">Cámara</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle [routerLink]="['/nosotros']">
+          <ion-item button detail >
+            <ion-icon class="icono" slot="start" size="large" name="information"/>
+            <ion-label class="texto">Nosotros</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+       
+      </ion-list>
+      
+   </ion-content>
+   <ion-button class="texto2" color="tertiary" expand="full">UPS</ion-button>
+ </ion-menu>
+ <div id="menu-content">
+   <ion-header>
+     <ion-toolbar>
+       <ion-buttons slot="start">
+         <ion-menu-button></ion-menu-button>
+       </ion-buttons>
+       <ion-title class="texto">PlantsApp</ion-title>
+     </ion-toolbar>
+   </ion-header>
+ </div>
+

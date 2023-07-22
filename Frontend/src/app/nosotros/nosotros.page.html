@@ -1,0 +1,30 @@
+
+<ion-content  >
+  <img  src="assets/icon/fondoArriba2.png"/>
+<div >
+  <ion-slides style="width: 50%;" pager="true">
+    <ion-slide *ngFor='let slide of slides'>
+        <img [src]="slide.img">
+      <div>
+        <h2 [innerHTML]="slide.titulo"></h2>
+      </div>
+     
+    </ion-slide>
+  </ion-slides>
+
+</div>
+<ion-card style="margin-top: 8%;">
+  <ion-card-header >
+    <ion-card-title color = "tertiary">Tutor: Ing.Marcelo Flores</ion-card-title>
+    <ion-card-title color = "tertiary">Estudiante: Vinicio Campoverde</ion-card-title>
+    <ion-card-title color = "tertiary">Estudiante: Carmen Bravo</ion-card-title>
+  </ion-card-header>
+</ion-card>
+  
+</ion-content>
+
+<ion-footer>
+
+</ion-footer>
+
+
