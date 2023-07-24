@@ -42,6 +42,15 @@ comandos pra la creación:
 
   ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/3de92829-fe6a-4967-b78a-72244a847ac7)
 
+
+5. Despliegue en andorid studio
+
+   ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/176a17db-4d09-4918-a858-f965a30ed6bf)
+
+* Generarcion de la apk
+
+  ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/c8affd2f-f572-4a4f-a7c0-bcac6e6c568a)
+
 ## Resultados
 
 ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/8eec3da6-735c-46fa-85ac-919d5e3a0177)
