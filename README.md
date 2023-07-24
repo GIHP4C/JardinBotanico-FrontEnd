@@ -37,10 +37,10 @@ comandos pra la creación:
    
   ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/d847d89a-98ee-4254-8a29-119b5d31fa95)
 
-    * Y tener configurado en el AndroidManifest.xml, el llamado del archivo network_security_config.xml
+  * Y tener configurado en el AndroidManifest.xml, el llamado del archivo network_security_config.xml
   ### Nota: tener en cuenta lo subrayado.
 
-    ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/3de92829-fe6a-4967-b78a-72244a847ac7)
+  ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/3de92829-fe6a-4967-b78a-72244a847ac7)
 
 
 
