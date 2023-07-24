@@ -33,7 +33,7 @@ comandos pra la creación:
    
    ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/7c8f8351-1fff-4882-a3a4-8f59c3c7ef86)
    
-    * importante la creacion del archivo network_security_config.xml, este archivo permitira la coneccion de internet de la apk. 
+  * importante la creacion del archivo network_security_config.xml, este archivo permitira la coneccion de internet de la apk. 
    
   ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/d847d89a-98ee-4254-8a29-119b5d31fa95)
 
@@ -42,7 +42,13 @@ comandos pra la creación:
 
   ![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/3de92829-fe6a-4967-b78a-72244a847ac7)
 
+## Resultados
 
+![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/8eec3da6-735c-46fa-85ac-919d5e3a0177)
+
+![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/84494958-b831-4ab2-9bc4-a4f9eac432b5)
+
+![image](https://github.com/GIHP4C/JardinBotanico-FrontEnd/assets/49033433/50471796-ed7e-4f1b-b10a-67da2b216b64)
 
 
 
